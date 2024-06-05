@@ -6,5 +6,6 @@ export enum HookName {
 	RENDERER_BEFORE_ELEMENT_COMPILE = "renderer.element.compile.before",
 	RENDERER_RENDER_ELEMENT = "renderer.element.render",
 	RENDERER_BEFORE_GENERATE_UNOCSS = "renderer.unocss.generate.before",
+	JOB_FINISH = "job.finish",
+	JOB_ENQUEUED = "job.enqueued",
 }
-
